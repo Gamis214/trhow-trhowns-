@@ -14,6 +14,8 @@ private void metodo3() throws Exception{
 Dentro del catch utilizamos la palabra reservada **throw** lo cual recibe un objeto Exception como parametro, esto con el fin de que
 el error sea manejado en la capa superior que mande a llamar al metodo.
 
+Debemos utilizar la palabra reservada **throws** con el fin de indicarle al metodo que la capa superior manejara su error del catch.
+
 Nuestra clase Main quedara de la siguiente manera:
 ```java
 public class Main {
